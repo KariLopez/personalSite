@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 function ResumeButton (){
     return(
         <div>
-       <Button>Resume</Button>
+       <Button >Resume</Button>
         </div>
     );  
 }

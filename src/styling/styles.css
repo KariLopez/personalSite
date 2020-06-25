@@ -1,0 +1,9 @@
+/*
+--rich-black-fogra-29: hsla(222, 61%, 13%, 1);
+--prussian-blue: hsla(215, 57%, 27%, 1);
+--black-coral: hsla(208, 47%, 46%, 1);
+--shadow-blue: hsla(214, 32%, 67%, 1);
+--eggshell: hsla(47, 10%, 94%, 1);*/
+body{
+    background-color: hsla(215, 57%, 27%, 1);
+}

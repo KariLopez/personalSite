@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button'
 
 function ResumeButton (){
     return(
         <div>
-       <button>Resume</button>
+       <Button>Resume</Button>
         </div>
     );  
 }

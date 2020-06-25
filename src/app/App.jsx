@@ -4,7 +4,6 @@ import ResumeButton from '../components/ResumeButton.jsx';
 function App(){
     const [hide,setHide]=useState(false);
     return( <div>
-          Click me!
     <ResumeButton onclick={()=>setHide(!hide)}/>
         </div>)
        

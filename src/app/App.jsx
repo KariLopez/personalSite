@@ -23,7 +23,7 @@ function App(){
             <Story src=''/>
             <Story src=''/>
             </div>
-            <div className='apiQuote'></div>
+            <div className='quoteBlock'><div className='apiQuote'></div></div>
         <div className="NavBar">
             <NavButton onclick={()=>setHide(!hide)} label="Download Resume" Navigation=""/>    
 </div>

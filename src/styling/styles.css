@@ -8,6 +8,14 @@ body{
     background-color: #FFFFFF;
     margin: 5em;
 }
+.apiQuote{
+      background-color: #D0006D;
+  border: 1px solid #343F4B;
+  border-radius: 5px;
+  width: 523px;
+  height: 358px;
+  justify-content: center;
+}
 .Header{
     font-family: 'Grand Hotel', cursive;
     color:#47525E;
@@ -18,9 +26,6 @@ body{
     margin: 5%;
 }
 .Home{
-    height: 80%;
-    color: white;
-    right:0px;
     display: flex;
     flex-direction: row;
 }
@@ -29,7 +34,9 @@ body{
     flex-direction: row;
     border-top: 1px solid #C0009F;
     /*opacity: 0.57;*/
-    border-bottom: 1px solid #C0009F
+    border-bottom: 1px solid #C0009F;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .NavBar{
     display: flex;
@@ -49,10 +56,8 @@ body{
     margin: 2px;
     text-align: center;
 }
-.outsideLink{
-    background-color: rgba(57, 109, 226, 0);
-  width: 64px;
-  height: 64px;
+.outsideLink>img{
+    height: 30px;
 }
 .story {
   background-color: #E5E9F2;

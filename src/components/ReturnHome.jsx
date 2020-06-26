@@ -2,7 +2,7 @@ import React from 'react';
 
 function ReturnHome(){
     return(
-    <div className="Home"><span class="material-icons">
+    <div className="Home"><span className="material-icons">
 arrow_circle_up
 </span></div>)
 }

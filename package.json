@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "watch":"webpack-dev-server --config webpack.dev.js",
+    "watch": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.dev.js",
     "build-prod": "webpack --config webpack.prod.js",
     "deploy": ""
@@ -22,6 +22,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "react-test-renderer": "^16.12.0",

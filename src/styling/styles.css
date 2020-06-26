@@ -5,19 +5,31 @@
 --shadow-blue: hsla(214, 32%, 67%, 1);
 --eggshell: hsla(47, 10%, 94%, 1);*/
 body{
-    background-color: hsla(215, 57%, 27%, 1);
+    background-color: #FFFFFF;
     margin: 5em;
 }
 .Header{
-    font-family: 'Lora', 'Palatino', sans-serif;
-    color:hsla(47, 10%, 94%, 1);
+    font-family: 'Grand Hotel', cursive;
+    color:#47525E;
+    font-size: 50px;
+    font-weight: 400;
     text-align: center;
+    width: 400px;
     margin: 5%;
 }
 .Home{
     height: 80%;
     color: white;
     right:0px;
+    display: flex;
+    flex-direction: row;
+}
+.ImageReel{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #C0009F;
+    /*opacity: 0.57;*/
+    border-bottom: 1px solid #C0009F
 }
 .NavBar{
     display: flex;
@@ -27,11 +39,28 @@ body{
 
 }
 .NavButton{
-    background-color:hsla(47, 10%, 94%, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    border: 2px solid #D0006D;
+    border-radius: 5px;
+    width: 192px;
+    height: 50px;
     padding: 5px;
     margin: 2px;
-    height: 80%;
-    width: 50%;
-    border-radius:2px;
     text-align: center;
+}
+.outsideLink{
+    background-color: rgba(57, 109, 226, 0);
+  width: 64px;
+  height: 64px;
+}
+.story {
+  background-color: #E5E9F2;
+  border: 3px solid #D0006D;
+  border-radius: 100%;
+  width: 143px;
+  height: 143px;
+}
+.storyModal{
+    display: hide;
 }

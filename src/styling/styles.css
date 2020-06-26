@@ -17,6 +17,7 @@ body{
   justify-content: center;
 }
 .Header{
+    flex-grow: 4;
     font-family: 'Grand Hotel', cursive;
     color:#47525E;
     font-size: 50px;
@@ -56,8 +57,10 @@ body{
     margin: 2px;
     text-align: center;
 }
-.outsideLink>img{
-    height: 30px;
+.outsideLink{
+    display: flex;
+    align-items: center;
+
 }
 .story {
   background-color: #E5E9F2;
@@ -68,4 +71,9 @@ body{
 }
 .storyModal{
     display: hide;
+}
+.webImg{
+    margin: .5em;
+    height: 50px;
+
 }

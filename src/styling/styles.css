@@ -6,4 +6,32 @@
 --eggshell: hsla(47, 10%, 94%, 1);*/
 body{
     background-color: hsla(215, 57%, 27%, 1);
+    margin: 5em;
+}
+.Header{
+    font-family: 'Lora', 'Palatino', sans-serif;
+    color:hsla(47, 10%, 94%, 1);
+    text-align: center;
+    margin: 5%;
+}
+.Home{
+    height: 80%;
+    color: white;
+    right:0px;
+}
+.NavBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+.NavButton{
+    background-color:hsla(47, 10%, 94%, 1);
+    padding: 5px;
+    margin: 2px;
+    height: 80%;
+    width: 50%;
+    border-radius:2px;
+    text-align: center;
 }

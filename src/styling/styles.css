@@ -65,12 +65,14 @@ body{
   width: 143px;
   height: 143px;
 }
-.storyModal{
-    display: hide;
+.storyImg{
+    height: 50%;
+    width: 60%;
 }
 .quoteBlock{
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
 }
 .webImg{
     margin: .5em;

@@ -2,7 +2,7 @@ import React from 'react';
 
 function StoryModal(props){
     return(
-        <div className='modal'>
+        <div className='modal-body'>
         <img src={props.src}/>
         <p>{props.caption}</p>
         </div>

@@ -6,6 +6,10 @@ import ExtLink from '../components/ExtLink.jsx';
 import Story from '../components/Story.jsx';
 import work from '../assets/linkedIn.png';
 import code from '../assets/gitHub.png'
+import volunteer from '../assets/CFG.jpg';
+import panel from '../assets/GRWebDevPanel.jpg';
+import momPanel from '../assets/MomTechPanel.png';
+import itc from '../assets/SeptemberITC.jpg';
 import styles from '../styling/styles.css';
 
 
@@ -18,10 +22,10 @@ function App(){
         <ExtLink src={code} newWindow='https://github.com/KariLopez'/ >
         </div>
         <div className='ImageReel'>
-            <Story src=''/>
-            <Story src=''/>
-            <Story src=''/>
-            <Story src=''/>
+            <Story src={itc} caption='Teaching an Intro to Coding Class hosted by Grand Circus'/>
+            <Story src={volunteer} caption='Volunteering at Weekend for Good with Citizen Labs Team'/>
+            <Story src={panel} caption=''/>
+            <Story src={momPanel} caption=''/>
             </div>
             <div className='quoteBlock'><div className='apiQuote'></div></div>
         <div className="NavBar">

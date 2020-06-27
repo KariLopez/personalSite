@@ -26,11 +26,6 @@ export default class Story extends React.Component{
       aria-labelledby="contained-modal-title-vcenter"
       centered         dialogClassName="modal-90w"
 > 
-        <Modal.Header>
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        </Modal.Header>
         <Modal.Body>
             <img className='storyImg' src={this.props.src}/>
             <p>{this.props.caption}</p>

@@ -4,13 +4,15 @@
   "description": "",
   "private": true,
   "main": "index.js",
+  "engines": {
+    "node":"12.18.2"
+  },
   "scripts": {
     "test": "jest",
     "watch": "webpack-dev-server --open --config webpack.dev.js",
     "build-test": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "start":"node index.js",
-    "deploy": ""
+    "start":"webpack-dev-server --open --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",

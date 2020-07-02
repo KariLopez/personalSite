@@ -18,7 +18,7 @@ function Story(props){
         
         <Modal.Body>
             <img className='storyImg' src={props.src}/>
-            <p>{props.caption}</p>
+            <p className='caption'>{props.caption}</p>
         </Modal.Body>
       </Modal>
     </div>

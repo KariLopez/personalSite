@@ -2,7 +2,7 @@ import React from 'react';
 function NavButton (props){
     return(
         <div className="NavButton">
-        <a href={props.Navigation}>{props.label}</a>
+        <a href={props.Navigation} download>{props.label}</a>
         </div>
     );  
 

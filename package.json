@@ -7,8 +7,8 @@
   "scripts": {
     "test": "jest",
     "watch": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.dev.js",
-    "build-prod": "webpack --config webpack.prod.js",
+    "build-test": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
     "deploy": ""
   },
   "keywords": [],

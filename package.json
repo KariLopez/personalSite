@@ -5,14 +5,15 @@
   "private": true,
   "main": "index.js",
   "engines": {
-    "node":"12.18.2"
+    "node": "12.18.2"
   },
   "scripts": {
     "test": "jest",
     "watch": "webpack-dev-server --open --config webpack.dev.js",
     "build-test": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "start":"webpack --config webpack.prod.js"
+     "start": "node server.js", 
+   "heroku-postbuild": "webpack --config webpack.prod.js" 
   },
   "keywords": [],
   "author": "",
@@ -43,6 +44,7 @@
     "babel-preset-minify": "^0.5.1",
     "bootstrap": "^4.5.0",
     "eslint": "^4.12.1",
+    "express": "^4.17.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.12.0"

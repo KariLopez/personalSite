@@ -6,7 +6,7 @@ import ExtLink from '../components/ExtLink.jsx';
 import Story from '../components/Story.jsx';
 import work from '../assets/linkedIn.png';
 import code from '../assets/gitHub.png'
-import volunteer from '../assets/CFG.jpg';
+import volunteer from '../assets/CFG.JPG';
 import panel from '../assets/GRWebDevPanel.jpg';
 import momPanel from '../assets/MomTechPanel.png';
 import itc from '../assets/SeptemberITC.jpg';

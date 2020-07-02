@@ -9,6 +9,7 @@
     "watch": "webpack-dev-server --open --config webpack.dev.js",
     "build-test": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
+    "start":"node index.js",
     "deploy": ""
   },
   "keywords": [],

@@ -6,10 +6,6 @@ import ExtLink from '../components/ExtLink.jsx';
 import Story from '../components/Story.jsx';
 import work from '../assets/linkedIn.png';
 import code from '../assets/gitHub.png'
-import volunteer from '../assets/CFG.JPG';
-import panel from '../assets/GRWebDevPanel.jpg';
-import momPanel from '../assets/MomTechPanel.png';
-import itc from '../assets/SeptemberITC.jpg';
 import styles from '../styling/styles.css';
 
 
@@ -21,10 +17,10 @@ function App(){
         <ExtLink src={code} newWindow='https://github.com/KariLopez'/ >
         </div>
         <div className='ImageReel'>
-            <Story src={itc} caption='Teaching an Intro to Coding Class hosted by Grand Circus'/>
-            <Story src={volunteer} caption='Volunteering at Weekend for Good with Citizen Labs Team'/>
-            <Story src={panel} caption='Honored to have been part of this great panel with other women working in tech from West Michigan!'/>
-            <Story src={momPanel} caption='I was so excited to be a part of this panel in collaboration with The Hive, such a cool co-working space concept'/>
+            <Story src='https://i.imgur.com/fC213Az.jpg' caption='Teaching an Intro to Coding Class hosted by Grand Circus'/>
+            <Story src='https://i.imgur.com/4FWTH43.jpg' caption='Volunteering at Weekend for Good with Citizen Labs Team'/>
+            <Story src='https://i.imgur.com/UOBt49t.jpg' caption='Honored to have been part of this great panel with other women working in tech from West Michigan!'/>
+            <Story src='https://i.imgur.com/CrzJw60.png' caption='I was so excited to be a part of this panel in collaboration with The Hive, such a cool co-working space concept'/>
             </div>
             <div className='quoteBlock'><div className='apiQuote'><p className='quote'>Quote Here</p><p className='author'>Author</p></div></div>
         <div className="NavBar">

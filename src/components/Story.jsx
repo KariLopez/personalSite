@@ -1,39 +1,30 @@
-import React  from 'react';
+import React, {useState} from 'react';
 import StoryModal from './StoryModal.jsx';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 
 
-export default class Story extends React.Component{
-    constructor(props){
-        super(props);
-        this.state={
-            displayModal:false
-        }
-        this.showModal=this.showModal.bind(this);
-        this.handleClose = this.handleClose.bind(this);
-    }
-    showModal(){
-        this.setState({displayModal:true});
-    }
-    handleClose(){
-        this.setState({displayModal:false});
-    }
-    render(){
-         return(
-            <div className='story' onClick={this.showModal}>
-      <Modal show={this.state.displayModal} onHide={this.handleClose}   size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered         dialogClassName="modal-90w"
-> 
+function Story(props){
+     const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  return (
+
+      <div>
+        <button className='story' onClick={handleShow}/>
+      <Modal show={show} onHide={handleClose}   size="lg"
+      centered  >
+        
         <Modal.Body>
-            <img className='storyImg' src={this.props.src}/>
-            <p>{this.props.caption}</p>
+            <img className='storyImg' src={props.src}/>
+            <p>{props.caption}</p>
         </Modal.Body>
       </Modal>
-            </div>
-        )
-    }
-   
+    </div>
+
+  ) 
 }
+export default Story;
+
 

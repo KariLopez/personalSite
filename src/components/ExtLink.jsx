@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ExtLink(props){
+function SiteLink(props){
     return(
 <div className='outsideLink'>
             <a  href={props.newWindow}>
@@ -10,4 +10,4 @@ function ExtLink(props){
 
     )
 }
-export default ExtLink;
+export default SiteLink;

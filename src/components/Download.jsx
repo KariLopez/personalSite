@@ -1,5 +1,5 @@
 import React from 'react';
-function NavButton (props){
+function Download (props){
     return(
         <div className="NavButton">
         <a href={props.Navigation} download>{props.label}</a>
@@ -13,4 +13,4 @@ function Navigation(url){
 }*/
 
 
-export default NavButton;
+export default Download;

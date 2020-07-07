@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import StoryModal from './StoryModal.jsx';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 

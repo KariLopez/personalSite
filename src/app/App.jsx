@@ -11,6 +11,8 @@ import styles from '../styling/styles.css';
 function App(){
     return( 
     <div>
+     <a id="top"></a>
+
         <div className='Home'>
             <h1 className="Header">Karina López</h1>
             <SiteLink src={work} newWindow='https://www.linkedin.com/in/karina-lopez11/' />

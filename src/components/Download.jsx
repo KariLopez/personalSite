@@ -1,7 +1,7 @@
 import React from 'react';
 function Download (props){
     return(
-        <div className="NavButton">
+        <div className="DownloadButton">
         <a href={props.Navigation} download>{props.label}</a>
         </div>
     );  

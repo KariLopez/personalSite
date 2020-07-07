@@ -6,8 +6,5 @@ function ReturnHome(){
 arrow_circle_up
 </span></a>)
 }
-function NavToTop(){
-    document.documentElement.scrollTop=0;
-    //document.body.scrollTop=0;
-}
+
 export default ReturnHome;

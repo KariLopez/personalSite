@@ -52,7 +52,7 @@ body{
     align-items: center;    
 
 }
-.NavButton{
+.DownloadButton{
     font-family: Roboto;
     font-size: 18px;
     border: 2px solid #D0006D;
@@ -62,6 +62,24 @@ body{
     padding: 5px;
     margin: 2px;
     text-align: center;
+}
+.DownloadButton>a{
+            text-decoration: none;
+
+}
+.DownloadButton>a:visited{
+        text-decoration: none;
+
+}
+    a{
+        color:#47525E;
+    }
+a:hover{
+            text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none;
 }
 .outsideLink{
     display: flex;

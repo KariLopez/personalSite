@@ -40,7 +40,6 @@ body{
     display: flex;
     flex-direction: row;
     border-top: 2px solid #C0009F;
-    opacity: 0.57;
     border-bottom: 2px solid #C0009F;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -87,7 +86,7 @@ a:hover{
 
 }
 .story {
-  background-color: #E5E9F2;
+  background-color: #F4FAFF;
   border: 3px solid #D0006D;
   border-radius: 100%;
   width: 143px;

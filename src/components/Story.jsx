@@ -11,7 +11,7 @@ function Story(props){
   return (
 
       <div>
-        <button className='story' onClick={handleShow}><span class="material-icons">
+        <button className='story' onClick={handleShow}><span class="material-icons" >
 {props.icon}
 </span></button> 
       <Modal show={show} onHide={handleClose}   size="lg"

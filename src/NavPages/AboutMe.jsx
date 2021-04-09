@@ -1,6 +1,6 @@
 
-import Footer from '../components/Footer';
-import Menu from '../components/Menu';
+import Footer from '../components/Footer.jsx';
+import Menu from '../components/Menu.jsx';
 function AboutMe(){
     return(
         <div>

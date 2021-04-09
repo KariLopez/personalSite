@@ -1,9 +1,13 @@
 
 body{
-    background-color: #FFFFFF;
     margin: 5em;
     font-family: 'Open Sans', sans-serif;
+    background-color:#883955;
 }
+h1{
+    font-family: 'Yellowtail', cursive;
+}
+
 .apiQuote{
       background-color: #D0006D;
   border: 1px solid #343F4B;
@@ -33,9 +37,21 @@ body{
     margin: 5%;
 }
 .Home{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-end;*/
+    background-image: url('');
+    height: 1000px;
+    color:white;
+}
+.homeNav{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    list-style-type:none;
+    
+}
+.homeNav>li{
+    margin: 10px;
 }
 .ImageReel{
     padding: 5px;
@@ -88,6 +104,7 @@ a:hover{
     align-items: center;
 
 }
+
 .story {
   background-color: #F4FAFF;
   border: 3px solid #D0006D;

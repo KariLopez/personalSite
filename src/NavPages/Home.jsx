@@ -16,8 +16,8 @@ function Home(){
             <h2>Software Developer</h2> 
            <nav>
                 <ul className="homeNav">
-                    <li>Work</li>
-                    <li>About</li>
+                    <li><a href=''>Work</a></li>
+                    <li><a href=''>About</a></li>
                     <li><a href="https://drive.google.com/u/0/uc?id=1Ts3_3VFz0pn8XzAHk7eI5u2VLX9-FHYq" target="_blank">Resume</a></li>
                 </ul>
             </nav>

@@ -3,6 +3,7 @@ import React from 'react';
 import Footer from '../components/Footer.jsx';
 import Menu from '../components/Menu.jsx';
 import Story from '../components/Story.jsx';
+import headshot from '../assets/headshot.jpeg'
 function AboutMe(){
     return(
         <div className='aboutMe'>
@@ -11,7 +12,7 @@ function AboutMe(){
             <p id="aboutMe_desc">
                 A summary about who I am professionally, my interests, aspirations, and career path
             </p> 
-            <img src='' title='headshot'/>
+            <img className='aboutMe_headshot' src={headshot} title='headshot'/>
            { /*<div className='ImageReel'>
                     <Story src='https://i.imgur.com/fC213Az.jpg' caption='Teaching an Intro to Coding Class hosted by Grand Circus' icon='school'/>
                     <Story src='https://i.imgur.com/4FWTH43.jpg' caption='Volunteering at Weekend for Good with Citizen Labs Team' icon='self_improvement'/>

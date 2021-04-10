@@ -8,8 +8,7 @@ function Footer(){
         <div className='footer'>
             <SiteLink src={work} newWindow='https://www.linkedin.com/in/karina-lopez11/' />
             <SiteLink src={code} newWindow='https://github.com/KariLopez'/>
-            <SiteLink src='' newWindow=''/>
-        
+            <a href='mailto:karinalopez91@gmail.com'><span class="material-icons">send</span></a>
         </div>
     )
 }

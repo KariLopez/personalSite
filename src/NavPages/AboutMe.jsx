@@ -3,7 +3,8 @@ import React from 'react';
 import Footer from '../components/Footer.jsx';
 import Menu from '../components/Menu.jsx';
 import Story from '../components/Story.jsx';
-import headshot from '../assets/headshot.jpeg'
+import headshot from '../assets/headshot.jpeg';
+
 function AboutMe(){
     return(
         <div className='aboutMe'>

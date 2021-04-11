@@ -8,7 +8,6 @@ import work from '../assets/linkedIn.png';
 import code from '../assets/gitHub.png'
 import styles from '../styling/styles.css';
 
-
 function App(){
     return( 
     <div>
@@ -29,6 +28,7 @@ function App(){
             <Download label="Download Resume" Navigation="https://drive.google.com/u/0/uc?id=1Ts3_3VFz0pn8XzAHk7eI5u2VLX9-FHYq&export=download"/>    
         </div>
         <ReturnHome/>
+        
     </div>
     )
 }

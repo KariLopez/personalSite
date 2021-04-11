@@ -4,6 +4,7 @@ import Footer from '../components/Footer.jsx';
 import Menu from '../components/Menu.jsx';
 import Story from '../components/Story.jsx';
 import headshot from '../assets/headshot.jpeg';
+import styles from '../styling/aboutMe.css';
 
 function AboutMe(){
     return(

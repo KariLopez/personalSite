@@ -25,6 +25,14 @@ module.exports = {
             inject: "body",
             chunks: ['about'],
         }),
+        new HtmlWebpackPlugin({
+            title: 'Output Management',
+            template: __dirname + "/src/index.html",
+            myPageHeader: 'Work',
+            filename: "work.html",
+            inject: "body",
+            chunks: ['work'],
+        }),
     ],
     output: {
         filename: '[name].js',

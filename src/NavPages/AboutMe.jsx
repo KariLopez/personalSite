@@ -4,7 +4,9 @@ import Footer from '../components/Footer.jsx';
 import Menu from '../components/Menu.jsx';
 import Story from '../components/Story.jsx';
 import headshot from '../assets/headshot.jpeg';
-import styles from '../styling/aboutMe.css';
+import aboutStyles from '../styling/aboutMe.css';
+import mainStyle from '../styling/styles.css';
+
 
 function AboutMe(){
     return(
@@ -12,7 +14,7 @@ function AboutMe(){
             <Menu/>
             <div className='aboutMe_content'>
             <p id="aboutMe_desc">
-                A summary about who I am professionally, my interests, aspirations, and career path
+              I started working as a software engnieer in 2017. I enjoy building new features. My bread and butter is C#, Javascript, React. I built this webiste to give myself the challenge of building a responsive ux friendly designed website.
             </p> 
             <img className='aboutMe_headshot' src={headshot} title='headshot'/>
            { /*<div className='ImageReel'>

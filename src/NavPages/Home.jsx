@@ -1,27 +1,22 @@
 import React from 'react';
+import Footer from '../components/Footer.jsx';
 
 function Home(){
+
     return(
         <div className='Home'>
             <h1>Karina Lopez</h1>
-            <h2>A descriptive title about what I do</h2>
-            <ul className="homeNav">
-                <li onClick={RenderPage()}>Work</li>
-                <li onClick={RenderPage()}>About</li>
-               <li><a href="https://drive.google.com/u/0/uc?id=1Ts3_3VFz0pn8XzAHk7eI5u2VLX9-FHYq" target="_blank">Resume</a></li>
-            </ul>
+            <h2>Software Developer</h2> 
+           <nav>
+                <ul className="homeNav">
+                    <li><a href='work.html'>Work</a></li>
+                    <li><a href='about.html'>About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1YGtzrhmGB83dFQKcadWHazXDCvX3Zhj3/view?usp=sharing" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+            <Footer/>
+   
         </div>
     )
-}
-function RenderPage(component){
-    switch(component){
-        case "work":
-            return Work;
-            break;
-        case "about":
-            return About;
-            break;
-    }
-    
-}
+} 
 export default Home; 

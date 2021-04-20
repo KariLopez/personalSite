@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app/App.jsx';
-import NewApp from './NavPages/NewApp.jsx';
+import Work from './NavPages/Work.jsx';
 
 ReactDOM.render(
-  <NewApp />,
+  <Work />,
   document.getElementById('root')
 );
 

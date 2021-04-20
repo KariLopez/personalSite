@@ -5,18 +5,38 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
     entry: {
         app: './src/index.js',
+        about:'./src/about.js',
+        work:'./src/work.js'
     },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Output Management',
             template: __dirname + "/src/index.html",
+            myPageHeader: 'App',
             filename: "index.html",
-            inject: "body"
+            inject: "body",
+            chunks: ['app'],
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Output Management',
+            template: __dirname + "/src/index.html",
+            myPageHeader: 'About',
+            filename: "about.html",
+            inject: "body",
+            chunks: ['about'],
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Output Management',
+            template: __dirname + "/src/index.html",
+            myPageHeader: 'Work',
+            filename: "work.html",
+            inject: "body",
+            chunks: ['work'],
         }),
     ],
     output: {
-        filename: 'index.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
     },
     module: {

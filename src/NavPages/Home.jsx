@@ -5,7 +5,7 @@ function Home(){
 
     return(
         <div className='Home'>
-            <h1>Karina Lopez</h1>
+            <h1>Karina López</h1>
             <h2>Software Developer</h2> 
            <nav>
                 <ul className="homeNav">

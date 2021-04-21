@@ -1,16 +1,28 @@
 
 body{
-   /* margin: 5em;*/
-    font-family: 'Open Sans', sans-serif;
+   margin: 15em;
+    font-family: 'Poppins', sans-serif;
     background-color:#883955;
     color:white;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 h1{
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Coiny', cursive;
+    font-size: 8vw;
 }
 
 .apiQuote{
-      background-color: #D0006D;
+    background-color: #D0006D;
   border: 1px solid #343F4B;
   border-radius: 5px;
   width: 50%;
@@ -28,9 +40,13 @@ h1{
     text-align: center;
 }
 .footer{
+   /* position: absolute;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /*margin: auto 20em;
+    left: 20%;
+    top:80%;*/
 }
 .Header{
     flex-grow: 4;
@@ -120,10 +136,6 @@ a:visited{
 .material-icons{
     font-size: 3em;
 }
-.menu{
-    align-content: flex-end;
-    max-width: 30%;
-}
 .storyImg{
     height: 50%;
     width: 60%;
@@ -144,8 +156,4 @@ a:visited{
     height: 50px;
 
 }
-#aboutMe_desc{
-    margin: 1em;    
-    background-color: transparent;
-    border: none;
-}
+

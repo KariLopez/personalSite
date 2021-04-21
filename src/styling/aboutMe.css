@@ -3,13 +3,19 @@
 
 }
 .aboutMe_content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  
 
 }
+@media only screen and (min-width: 992px) {
+    .aboutMe_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  }
 .aboutMe_headshot{
     border-radius: 50%;
+    /*max size*/
 }
 #aboutMe_desc{
     margin: auto 1em;    

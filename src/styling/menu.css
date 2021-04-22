@@ -11,7 +11,15 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
+  font-size:2vw;
+  background-color:#883955 ;
+
 }
 .menu:hover .menuItems {
     display: block;
+  }
+  @media only screen and (max-width:900px) {
+    .menuItems{
+      font-size:2vw;
+    }
   }

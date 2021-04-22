@@ -20,6 +20,11 @@ h1{
     font-family: 'Coiny', cursive;
     font-size: 12vw;
 }
+h2{
+    overflow: inherit;
+    white-space: nowrap;
+}
+/*
 .apiQuote{
     background-color: #D0006D;
   border: 1px solid #343F4B;
@@ -33,10 +38,12 @@ h1{
   justify-content: space-around;
   align-items: center;
   
-}
+}*/
 
 .caption{
     text-align: center;
+    color: black;
+
 }
 .footer{
    /* position: absolute;*/
@@ -82,10 +89,11 @@ h1{
     padding: 5px;
     display: flex;
     flex-direction: row;
-    border-top: 2px solid #C0009F;
+    justify-content: center;
+    /*border-top: 2px solid #C0009F;
     border-bottom: 2px solid #C0009F;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 100px;*/
 }
 .NavBar{
     display: flex;
@@ -128,8 +136,8 @@ a:visited{
 }
 
 .story {
-  background-color: #F4FAFF;
-  border: 3px solid #D0006D;
+  background-color: #883955;
+  border: 3px solid #F4FAFF;
   border-radius: 100%;
   width: 143px;
   height: 143px;
@@ -164,6 +172,8 @@ a:visited{
     }
     h2{
         font-size: 4vw;
+        overflow: inherit;
+    white-space: nowrap;
     }
     .homeNav{
         font-size:16px;

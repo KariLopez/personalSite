@@ -4,6 +4,7 @@ import Modal from "react-bootstrap/Modal";
 
 
 function Story(props){
+
      const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);

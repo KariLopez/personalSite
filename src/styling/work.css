@@ -1,0 +1,12 @@
+.workContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+}
+@media only screen and (min-width: 992px){
+    .workContent{
+        flex-wrap: wrap;
+    }
+}

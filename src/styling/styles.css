@@ -18,9 +18,8 @@ body{
 }
 h1{
     font-family: 'Coiny', cursive;
-    font-size: 8vw;
+    font-size: 12vw;
 }
-
 .apiQuote{
     background-color: #D0006D;
   border: 1px solid #343F4B;
@@ -71,8 +70,11 @@ h1{
     flex-direction: row;
     list-style-type:none;
     justify-content: center;
+    font-size:32px;
+    font-size:4vw;
     
 }
+
 .homeNav>li{
     margin: 2% 5%;
 }
@@ -156,4 +158,15 @@ a:visited{
     height: 50px;
 
 }
-
+@media only screen and (min-width: 992px) {
+    h1{
+        font-size:8vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    .homeNav{
+        font-size:16px;
+        font-size:2vw;
+    }
+}

@@ -1,6 +1,7 @@
 .aboutMe_headshot{
     border-radius: 50%;
-  
+    height:50%;
+    margin:auto;
 }
 #aboutMe_desc{
     margin: auto 1em;    
@@ -24,9 +25,4 @@
         text-align: left;
     }
   }
-  /*for smaller than main laptop view*/
-@media only screen and (max-width: 992px) {
-    .aboutMe_headshot{
-        height:50%;
-    }
-}
+

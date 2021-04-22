@@ -14,7 +14,7 @@ function AboutMe(){
             <Menu/>
             <div className='aboutMe_content'>
             <p id="aboutMe_desc">
-              I started working as a software engnieer in 2017. I enjoy building new features. My bread and butter is C#, Javascript, React. I built this webiste to give myself the challenge of building a responsive ux friendly designed website.
+              Ambition and tenacity are two values that helped me switch careers and begin my software development journey. I started working as a software developer in 2017 and have spent most of the time since, developing my C#, Javascript, and React skills. Equity in tech is a goal I feel personally invested in, and spend time outside of work making that a reality. I built this site myself for the challenge of building a responsive, ux friendly designed website.
             </p> 
             <img className='aboutMe_headshot' src={headshot} title='headshot'/>
            { /*<div className='ImageReel'>

@@ -1,24 +1,32 @@
-
-.aboutMe{
-
-}
-.aboutMe_content{
+.aboutMe_headshot{
+    border-radius: 50%;
   
-
 }
+#aboutMe_desc{
+    margin: auto 1em;    
+    background-color: transparent;
+    border: none;
+    font-size:4vw;
+    text-align: center;
+}
+
+/*anything laptop view and larger*/
 @media only screen and (min-width: 992px) {
     .aboutMe_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
+    #aboutMe_desc{
+          /*fall back font size*/
+        font-size:16px;
+        font-size: 2vw;
+        text-align: left;
+    }
   }
-.aboutMe_headshot{
-    border-radius: 50%;
-    /*max size*/
-}
-#aboutMe_desc{
-    margin: auto 1em;    
-    background-color: transparent;
-    border: none;
+  /*for smaller than main laptop view*/
+@media only screen and (max-width: 992px) {
+    .aboutMe_headshot{
+        height:50%;
+    }
 }

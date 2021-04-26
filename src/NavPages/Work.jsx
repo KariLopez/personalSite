@@ -11,10 +11,10 @@ function Work(){
         <div className='workPage'>
             <Menu/>
             <div className='workContent'>
-                <Portrait desc='Google Certification' />
+                {/*<Portrait desc='Google Certification' />
                 <Portrait desc='Example 2' />
                 <Portrait desc='Example 3'  />
-                <Portrait desc='Example 4'  />
+    <Portrait desc='Example 4'  />*/}
             </div>
             <Footer/>
         </div>

@@ -11,7 +11,7 @@ function Home(){
                 <ul className="homeNav">
                     {/*<li><a href='work.html'>Work</a></li>*/}
                     <li><a href='about.html'>About</a></li>
-                    <li><a href="https://docs.google.com/document/d/e/2PACX-1vSk0pO2oLehnI5iGtC8z84tjefGfgPyezzKvNwN3YvKTfmCXiyJ-dDFZuP2qvAklrP9wQwNdrYqv6ME/pub" target="_blank">Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1EiVsW4w3ECFBDtFRPJnJ9_ExPw0XZGOC/view?usp=sharing" target="_blank">Resume</a></li>
                 </ul>
             </nav>
             <Footer/>

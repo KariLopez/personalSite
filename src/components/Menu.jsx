@@ -7,7 +7,7 @@ function Menu(){
     let menuitems=<div></div>;
     if(show){
         menuitems= <div className='menuItems'><div><a href='index.html'>  Home</a></div>{/*<div><a href='work.html'>Work</a></div>*/}<div><a href='about.html'>About</a></div><div>
-            <a href="https://drive.google.com/file/d/1pGeA-K-Unfx1_ftbGs-Kgo4avDAnb8kM/view?usp=sharing" target="_blank">Resume</a>
+            <a href="https://drive.google.com/file/d/1cS7dqT-eNcx7ZFeEXeKmTLwOmbZJ_eeS/view?usp=sharing" target="_blank">Resume</a>
             </div></div>;         
     }
     return(

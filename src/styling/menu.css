@@ -1,10 +1,8 @@
 .menu{
-    position: absolute;
   display: inline-block;
   align-content: flex-end;
     max-width: 30%;
-    top: 10%;
-    left: 18%;
+    min-height: 208px;
 }
 .menuItems{
   min-width: 160px;

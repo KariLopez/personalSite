@@ -9,7 +9,6 @@ function Home(){
             <h2>Builder. Tinkerer. Software Developer</h2> 
            <nav>
                 <ul className="homeNav">
-                    {/*<li><a href='work.html'>Work</a></li>*/}
                     <li><a href='about.html'>About</a></li>
                     <li><a href={resumeLoc} target="_blank">Resume</a></li>
                 </ul>

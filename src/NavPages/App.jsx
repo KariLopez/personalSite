@@ -8,7 +8,7 @@ import {
 import About from './AboutMe.jsx';
 import Home from './Home.jsx';
 
-function NewApp(){
+function App(){
       return(
             <Router>
                     <Switch>
@@ -19,4 +19,4 @@ function NewApp(){
 
       )
   }
-  export default NewApp;
+  export default App;

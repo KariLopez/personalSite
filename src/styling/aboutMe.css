@@ -13,7 +13,7 @@
 .aboutMe_headshot{
     border-radius: 50%;
     height:50%;
-    margin:auto;
+    margin:auto 1em;
 }
 #aboutMe_desc{
     margin: auto 1em;    

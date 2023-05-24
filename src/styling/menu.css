@@ -12,6 +12,10 @@
   background-color:#883955 ;
 
 }
+.menuItems>div{
+  padding: 1em;
+
+}
 .menu:hover .menuItems {
     display: block;
   }

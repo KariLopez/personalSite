@@ -5,7 +5,7 @@ import { resumeLoc } from '../components/resumeLink.js';
 function Home(){
     return(
         <div className='Home'>
-            <h1>Karina López</h1>
+            <h1>Karina Lopez</h1>
             <h2>Builder. Tinkerer. Software Developer</h2> 
            <nav>
                 <ul className="homeNav">

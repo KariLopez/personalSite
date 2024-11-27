@@ -12,7 +12,7 @@ function Menu(){
             <div><a href='index.html'>Home</a></div>
                 <div><a href='about.html'>About</a></div>
                 <div><a href={resumeLoc} target="_blank">Resume</a></div>
-            </div>;         
+            </div>;              
     }
     return(
         <div className='menu'>
